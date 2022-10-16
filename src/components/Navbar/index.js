@@ -1,9 +1,9 @@
 import React from 'react';
-import './index.css'
+import style from'./index.module.css'
 
 function Navbar() {
   return (
-    <div className='demo'>Navbar</div>
+    <div className={style.demo}>Navbar</div>
   )
 }
 
