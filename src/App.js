@@ -6,6 +6,7 @@ import MyFriends from "./components/component_tuto/MyFriends";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Header from "./Header";
+import Test from "./components/functional_components/test";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ComponentEx2/>
       <ComponentEx4 firstName="Dice" age="18"/>
       <MyFriends/>
+      <Test/>
       
     </>
   ) 
