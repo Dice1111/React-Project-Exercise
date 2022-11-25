@@ -8,6 +8,9 @@ import Navbar from "./components/Navbar";
 import Header from "./Header";
 import Test from "./components/functional_components/test";
 import Time from "./components/functional_components/time";
+import NumLists from './components/functional_components/NumLists';
+
+const numbers = [1,2,3,4,5];
 
 function App() {
   return (
@@ -21,6 +24,7 @@ function App() {
       <MyFriends/>
       <Test/>
       <Time />
+      <NumLists numbers= {numbers}/>
       
     </>
   ) 
