@@ -9,6 +9,7 @@ import Header from "./Header";
 import Test from "./components/functional_components/test";
 import Time from "./components/functional_components/time";
 import NumLists from './components/functional_components/NumLists';
+import Toggle from './components/component_tuto/Toggle';
 
 const numbers = [1,2,3,4,5];
 
@@ -25,6 +26,7 @@ function App() {
       <Test/>
       <Time />
       <NumLists numbers= {numbers}/>
+      <Toggle/>
       
     </>
   ) 
