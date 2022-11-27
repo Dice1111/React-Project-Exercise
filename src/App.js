@@ -11,6 +11,7 @@ import Time from "./components/functional_components/time";
 import NumLists from './components/functional_components/NumLists';
 import Toggle from './components/component_tuto/Toggle';
 import Form from './components/component_tuto/Form';
+import Conditioncheck from "./components/component_tuto/Conditioncheck";
 
 const numbers = [1,2,3,4,5];
 
@@ -29,6 +30,7 @@ function App() {
       <NumLists numbers= {numbers}/>
       <Toggle/>
       <Form/>
+      <Conditioncheck/>
 
       
     </>
