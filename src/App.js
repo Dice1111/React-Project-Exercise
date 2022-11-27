@@ -12,6 +12,7 @@ import NumLists from './components/functional_components/NumLists';
 import Toggle from './components/component_tuto/Toggle';
 import Form from './components/component_tuto/Form';
 import Conditioncheck from "./components/component_tuto/Conditioncheck";
+import LiftingState from "./components/component_tuto/LiftingState";
 
 const numbers = [1,2,3,4,5];
 
@@ -31,6 +32,7 @@ function App() {
       <Toggle/>
       <Form/>
       <Conditioncheck/>
+      <LiftingState/>
 
       
     </>
