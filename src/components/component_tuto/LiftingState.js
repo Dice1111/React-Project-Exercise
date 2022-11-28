@@ -85,6 +85,7 @@ const scaleNames = {
             scale="f"
             temperature={fahrenheit}
             onTemperatureChange={this.handleFahrenheitChange} />
+            
           <BoilingVerdict
             celsius={parseFloat(celsius)} />
         </div>
