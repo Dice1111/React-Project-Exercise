@@ -15,6 +15,7 @@ import Conditioncheck from "./components/component_tuto/Conditioncheck";
 import LiftingState from "./components/component_tuto/LiftingState";
 import ReactBootstrap from "./components/functional_components/ReactBootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BootstrapTable from "./components/functional_components/BootstrapTable";
 
 
 const numbers = [1,2,3,4,5];
@@ -37,6 +38,7 @@ function App() {
       <Conditioncheck/>
       <LiftingState/>
       <ReactBootstrap/>
+      <BootstrapTable/>
 
 
       
