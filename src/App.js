@@ -16,6 +16,7 @@ import LiftingState from "./components/component_tuto/LiftingState";
 import ReactBootstrap from "./components/functional_components/ReactBootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapTable from "./components/functional_components/BootstrapTable";
+import ReactRouter from "./components/functional_components/ReactRouter";
 
 
 const numbers = [1,2,3,4,5];
@@ -39,6 +40,7 @@ function App() {
       <LiftingState/>
       <ReactBootstrap/>
       <BootstrapTable/>
+      <ReactRouter/>
 
 
       
